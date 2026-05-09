@@ -15,6 +15,18 @@ The goal is to study how a running x64 `gmod.exe` process exposes:
 
 This repository is not meant as a production-ready framework. It is a small learning project focused on understanding memory layout, pattern resolution, and data table traversal in a real x64 game process.
 
+## Intended Use
+
+This repository is meant for:
+
+- educational study
+- reverse-engineering practice
+- x64 pattern scanning practice
+- RecvTable / NetVar inspection
+- learning how generated offset tooling can be structured in C++
+
+It is not presented as a commercial tool, a bypass framework, or a guaranteed-accurate source of live offsets across all game versions.
+
 ## What It Does
 
 - Finds the running `win64` Garry's Mod process
@@ -66,6 +78,23 @@ or
 - Static offsets are intentionally curated, not fully auto-discovered.
 - NetVars are dumped more broadly by walking RecvTables.
 - Results may change across game updates.
+- Generated values can become outdated after patches or game changes.
+- Accuracy should always be verified again on the target build before trusting any result.
+
+## Disclaimer
+
+Use this project at your own risk.
+
+The repository is shared strictly for educational and research purposes. I do not guarantee that the generated offsets, dumped NetVars, helper scripts, or validation output will remain correct, safe, or suitable for any specific use case.
+
+I am not responsible for:
+
+- how other people use this code
+- misuse of the project outside its educational purpose
+- broken offsets after updates
+- any bans, data loss, crashes, or other consequences caused by modifying, running, or adapting this code
+
+If you choose to use, modify, or publish this project, that responsibility is entirely yours.
 
 ## Educational Scope
 
