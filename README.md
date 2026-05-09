@@ -94,7 +94,7 @@ I am not responsible for:
 - broken offsets after updates
 - any bans, data loss, crashes, or other consequences caused by modifying, running, or adapting this code
 
-If you choose to use, modify, or publish this project, that responsibility is entirely yours.
+If you choose to use, modify this project, that responsibility is entirely yours.
 
 ## Educational Scope
 
@@ -104,5 +104,3 @@ This repository is shared as a learning resource for:
 - x64 pattern scanning practice
 - process/module inspection
 - C++ tooling around generated offsets
-
-If you publish it on GitHub, it is best described as an educational dumper rather than a finished tool.
